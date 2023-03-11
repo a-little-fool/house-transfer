@@ -1,0 +1,13 @@
+com\zssedu\config\UserDetailsServiceImpl.class
+com\zssedu\controller\DictController.class
+com\zssedu\controller\PermissionController.class
+com\zssedu\controller\HouseUserController.class
+com\zssedu\controller\HouseController.class
+com\zssedu\controller\RoleController.class
+com\zssedu\controller\AdminController.class
+com\zssedu\controller\CommunityController.class
+com\zssedu\config\CustomAccessDeniedHandler.class
+com\zssedu\controller\IndexController.class
+com\zssedu\config\MySpringSecurityController.class
+com\zssedu\controller\HouseBrokerController.class
+com\zssedu\controller\HouseImageController.class

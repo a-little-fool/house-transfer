@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zssedu.dao.DictDao">
+
+<!--    公共sql语句-->
+    <sql id="columns">
+        select id,parent_id,name,dict_code,create_time,update_time,is_deleted
+    </sql>
+
+<!--    根据父结点id查找子结点-->
+    <select id="findListByParentId" resultType="dict">
+        <include refid="columns"></include>
+        from hse_dict
+        where parent_id = #{id}
+    </select>
+
+<!--    看当前结点是不是父结点-->
+    <select id="countIsParent" resultType="int">
+        select count(id)
+        from hse_dict
+        where parent_id = #{id}
+    </select>
+
+    <select id="getByDictCode" resultType="dict">
+        <include refid="columns"></include>
+        from hse_dict
+        where
+            dict_code = #{dictCode}
+    </select>
+
+    <select id="getNameById" resultType="string">
+        select name
+        from hse_dict
+        where
+            id = #{id}
+    </select>
+</mapper>

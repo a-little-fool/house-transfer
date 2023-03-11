@@ -1,0 +1,1 @@
+这个模块放dubbo结构中providers与consumers的公共接口

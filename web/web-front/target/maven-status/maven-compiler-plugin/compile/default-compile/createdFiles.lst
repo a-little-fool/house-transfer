@@ -1,0 +1,5 @@
+com\zssedu\controller\DictController.class
+com\zssedu\controller\UserInfoController.class
+com\zssedu\controller\UserFollowController.class
+com\zssedu\controller\HouseController.class
+com\zssedu\interceptor\LoginInterceptor.class

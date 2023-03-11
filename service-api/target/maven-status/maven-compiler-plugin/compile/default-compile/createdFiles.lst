@@ -1,0 +1,11 @@
+com\zssedu\service\RoleService.class
+com\zssedu\service\HouseImageService.class
+com\zssedu\service\HouseUserService.class
+com\zssedu\service\PermissionService.class
+com\zssedu\service\HouseBrokerService.class
+com\zssedu\service\HouseService.class
+com\zssedu\service\CommunityService.class
+com\zssedu\service\UserInfoService.class
+com\zssedu\service\UserFollowService.class
+com\zssedu\service\AdminService.class
+com\zssedu\service\DictService.class
